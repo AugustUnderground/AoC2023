@@ -1,0 +1,10 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "AoC2023:lib"
+
+    - path: "./app/Main.hs"
+      component: "AoC2023:exe:AoC2023-exe"
+
+    - path: "./test"
+      component: "AoC2023:test:AoC2023-test"
