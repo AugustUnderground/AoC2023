@@ -86,5 +86,3 @@ run = do
         e2 = sum . map (gearRatio partNumbers) $ S.toList starCoords
 
     putStrLn $ "\tTask 2: " ++ show e2
-
-    pure ()
