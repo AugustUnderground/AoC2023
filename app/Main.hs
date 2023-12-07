@@ -8,7 +8,8 @@ module Main (main) where
 -- import qualified Day03
 -- import qualified Day04
 -- import qualified Day05
-import qualified Day06
+-- import qualified Day06
+import qualified Day07
 
 main :: IO ()
-main = Day06.run
+main = Day07.run
