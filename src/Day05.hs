@@ -2,7 +2,6 @@
 
 {-# LANGUAGE RecordWildCards #-}
 {-# LANGUAGE TypeApplications #-}
-{-# LANGUAGE OverloadedStrings #-}
 
 module Day05 (run) where
 

@@ -2,7 +2,6 @@
 
 {-# LANGUAGE TupleSections #-}
 {-# LANGUAGE TypeApplications #-}
-{-# LANGUAGE OverloadedStrings #-}
 
 module Day04 (run) where
 

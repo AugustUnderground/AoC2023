@@ -1,7 +1,6 @@
 {-# OPTIONS_GHC -Wall #-}
 
 {-# LANGUAGE TypeApplications #-}
-{-# LANGUAGE OverloadedStrings #-}
 
 module Day07 (run) where
 
