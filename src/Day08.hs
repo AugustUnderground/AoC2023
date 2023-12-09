@@ -55,4 +55,3 @@ run = do
         e2     = foldl1 lcm steps
 
     putStrLn $ "\tTask 2: " ++ show e2
-    pure ()
