@@ -123,4 +123,3 @@ run = do
         e2   = sum $ map (isInside input path False 0) grid
 
     putStrLn $ "\tTask 2: " ++ show e2
-    pure ()
