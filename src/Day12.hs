@@ -77,4 +77,3 @@ run = do
     let e2 = sum $ map (uncurry memoize . uncurry (unfold' 5)) input
     
     putStrLn $ "\tTask 2: " ++ show e2
-    pure ()
