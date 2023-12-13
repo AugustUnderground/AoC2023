@@ -1,8 +1,5 @@
 {-# OPTIONS_GHC -Wall #-}
 
-{-# LANGUAGE TupleSections #-}
-{-# LANGUAGE TypeApplications #-}
-
 module Day13 (run) where
 
 import Data.List       (elemIndices,transpose)
@@ -50,5 +47,3 @@ run = do
 
     putStrLn $ "Day 13:\n\tTask 1: " ++ show e1
     putStrLn $ "\tTask 2: " ++ show e2
-
-    pure ()
