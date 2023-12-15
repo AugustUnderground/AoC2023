@@ -16,7 +16,8 @@ module Main (main) where
 -- import qualified Day11
 -- import qualified Day12
 -- import qualified Day13
-import qualified Day14
+-- import qualified Day14
+import qualified Day15
 
 main :: IO ()
-main = Day14.run
+main = Day15.run

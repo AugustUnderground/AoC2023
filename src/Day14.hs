@@ -1,13 +1,12 @@
 {-# OPTIONS_GHC -Wall #-}
 
-{-# LANGUAGE TupleSections #-}
 {-# LANGUAGE FlexibleContexts #-}
 
 module Day14 (run) where
 
 import           Data.Maybe     (fromJust)
 import           Data.List      (elemIndex)
-import           Data.Map       (Map, (!))
+import           Data.Map       (Map)
 import           Data.Set       (Set)
 import qualified Data.Map as M
 import qualified Data.Set as S
@@ -53,7 +52,7 @@ run = do
         len    = length input
         e1     = load len $ tilt board cubes rounds (1,0) 
 
-    putStrLn $ "Day 13:\n\tTask 1: " ++ show e1
+    putStrLn $ "Day 14:\n\tTask 1: " ++ show e1
 
     let e2 = load len $ spinCycle board cubes rounds 0 []
 
